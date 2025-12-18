@@ -1,0 +1,18 @@
+{
+  "name": "StyleVerse",
+  "short_name": "StyleVerse",
+  "description": "Fashion Shopping, Community & Rewards - Your complete fashion destination",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#e5684a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["shopping", "lifestyle", "social"]
+}
