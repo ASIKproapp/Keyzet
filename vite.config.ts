@@ -48,16 +48,8 @@ export default defineConfig(({ mode }) => ({
       }
     },
     chunkSizeWarningLimit: 1500,
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true,
-        pure_funcs: ['console.info', 'console.debug'], // Remove specific console methods
-      }
-    },
     sourcemap: false,
-    // Enable brotli compression
-    brotliSize: true,
+    minify: 'esbuild',
     // Optimize CSS
     cssCodeSplit: true,
     // Optimize assets
